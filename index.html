@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Аргелит</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=04709a29-6f21-442a-9cb5-272b39900456&amp;lang=ru_RU" type="text/javascript"></script>
+  <link href="styles/main.css" rel="stylesheet"></head>
+  <body>
+    <div class="main-wrapper" id="main-wrapper">
+      <header class="header">
+        <div class="header__top">
+          <div class="header__work-time">
+            <div class="header__close-cross js-close-mob-menu">
+              <svg class="icon icon-close">
+                <use xlink:href="sprite.svg#close"></use>
+              </svg>
+            </div><span class="header__days">Понедельник–пятница</span><span class="header__krd-time">Мы работаем<br> по Красноярскому времени: с 08:00 до 17:00</span><span class="header__msk-time">По Московскому времени: с 04:00 до 13:00</span>
+            <div class="header__mobile-block"><a href="tel:+79832238283">8 (983) 223-82-83</a>
+              <button class="header__call-request btn js-open-modal" data-modal="compact">Заказать звонок</button>
+            </div>
+          </div>
+        </div>
+        <div class="header__middle">
+          <div class="header__logo">
+            <svg class="icon icon-logo">
+              <use xlink:href="sprite.svg#logo"></use>
+            </svg>
+          </div>
+          <div class="header__name">
+            <div class="header__inner-name">АРГЕЛЛИТ</div>
+            <div class="header__slogan">фильтрующая загрузка для очистки воды из&nbsp;горелых пород</div>
+          </div>
+          <div class="header__destination">
+            <div class="header__medal-icon">
+              <svg class="icon icon-medal">
+                <use xlink:href="sprite.svg#medal"></use>
+              </svg>
+            </div>
+            <div class="header__destination-inner">
+              <div class="header__medal">Единственный производитель в России с 1998 года</div>
+              <div class="header__place">г.&nbsp;Киселевск, месторождение «Дальние&nbsp;горы»</div>
+            </div>
+          </div>
+          <div class="header__links header__links-desktop"><a href="#how-to-order">Как сделать заказ?</a><a href="#certs">Сертификаты</a></div>
+          <div class="header__phone-block">
+            <div class="header__phone"><a href="tel:+79832238283">8 (983) 223-82-83</a></div>
+            <button class="header__call-request btn js-open-modal" data-modal="compact">Заказать звонок</button>
+          </div>
+        </div>
+        <div class="header__bottom"><a class="open-mob-menu js-open-mob-menu" href="#">
+            <svg class="icon icon-menu">
+              <use xlink:href="sprite.svg#menu"></use>
+            </svg></a>
+          <nav class="header__menu">
+            <div><a href="#about">О материале</a></div>
+            <div><a href="#reasons">Применение</a></div>
+            <div><a href="#composition">Состав и характеристики</a></div>
+            <div><a href="#fractions">Фракции</a></div>
+            <div><a href="#delivery">Доставка и оплата</a></div>
+            <div><a href="#mining">Производство</a></div>
+            <div><a href="#faq">Вопрос-ответ</a></div>
+            <div><a href="#contacts">Контакты</a></div>
+            <div class="header__links header__links--mob"><a href="#how-to-order">Как сделать заказ?</a><a href="#certs">Сертификаты</a></div>
+          </nav><a class="header__phone-mobile" href="tel:+79832238283">8 (983) 223-82-83</a>
+        </div>
+      </header>
+      <section class="main-block lazy" data-bg="img/main-bg.jpg">
+        <div class="main-block__inner">
+          <div class="main-block__text-block">
+            <div class="main-block__title">
+              «АРГЕЛЛИТ»<br><span class="main-block__span-blue">фильтрующий материал</span><br>
+              из дробленых горелых пород (розовый песок)
+            </div>
+            <div class="main-block__subtitle">уникальная загрузка для систем очистки воды</div>
+            <div class="main-block__text">Наше предприятие — единственный производитель и&nbsp;поставщик данного материала в России</div>
+            <button class="main-block__btn btn js-open-modal" data-modal="full">Получить коммерческое предложение</button>
+          </div>
+          <div class="advantages">
+            <div class="advantages__item">
+              <div class="advantages__item-icon">
+                <svg class="icon icon-price">
+                  <use xlink:href="sprite.svg#price"></use>
+                </svg>
+              </div>
+              <div class="advantages__item-title">Без наценки</div>
+              <div class="advantages__item-subtitle">от производителя</div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__item-icon">
+                <svg class="icon icon-kg">
+                  <use xlink:href="sprite.svg#kg"></use>
+                </svg>
+              </div>
+              <div class="advantages__item-title">Любые объемы</div>
+              <div class="advantages__item-subtitle">от 30 килограмм</div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__item-icon">
+                <svg class="icon icon-truck">
+                  <use xlink:href="sprite.svg#truck"></use>
+                </svg>
+              </div>
+              <div class="advantages__item-title">С доставкой</div>
+              <div class="advantages__item-subtitle">во все регионы России</div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__item-icon">
+                <svg class="icon icon-rock">
+                  <use xlink:href="sprite.svg#rock"></use>
+                </svg>
+              </div>
+              <div class="advantages__item-title">Любые фракции</div>
+              <div class="advantages__item-subtitle">от 0,5 до 70 мм</div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__item-icon">
+                <svg class="icon icon-wheat">
+                  <use xlink:href="sprite.svg#wheat"></use>
+                </svg>
+              </div>
+              <div class="advantages__item-title">Удобная фасовка</div>
+              <div class="advantages__item-subtitle">в мягкие контейнеры и&nbsp;мешки (30 кг)</div>
+            </div>
+            <div class="advantages__item">
+              <div class="advantages__item-icon">
+                <svg class="icon icon-marketing">
+                  <use xlink:href="sprite.svg#marketing"></use>
+                </svg>
+              </div>
+              <div class="advantages__item-title">Участвуем<br>в тендерах</div>
+              <div class="advantages__item-subtitle"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reasons lazy" id="about" data-bg="img/reasons-bg.png">
+        <div class="reasons__inner">
+          <div class="reasons__title title">7 причин выбрать<br>наш фильтрующий материал</div>
+          <div class="reasons__content">
+            <div class="reasons__col reasons__left">
+              <div class="reasons__item">
+                <div class="reasons__item-num">1</div>
+                <div class="reasons__item-text-block">
+                  <div class="reasons__item-title">Эффективный и экономичный</div>
+                  <div class="reasons__item-text">
+                    <p>Горелые породы по своей структуре имеют хорошо развитую поверхность, высокую природную пористость и стабильно высокую механическую прочность.</p>
+                    <p>Износ аргеллита составляет менее 0,25 % в год (при пористости 58%), поэтому он надежен и экономичен в эксплуатации.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reasons__col reasons__midle">
+              <div class="reasons__item">
+                <div class="reasons__item-num">2</div>
+                <div class="reasons__item-text-block">
+                  <div class="reasons__item-title">Повысит качество очищаемых вод</div>
+                  <div class="reasons__item-text">по мутности, цветности и бактериологическим показателям</div>
+                </div>
+              </div>
+              <div class="reasons__item">
+                <div class="reasons__item-num">3</div>
+                <div class="reasons__item-text-block">
+                  <div class="reasons__item-title">Сократит объем ежегодной досыпки</div>
+                  <div class="reasons__item-text">фильтрующего материала<br>с 10 % до 1%—2%</div>
+                </div>
+              </div>
+              <div class="reasons__item">
+                <div class="reasons__item-num">4</div>
+                <div class="reasons__item-text-block">
+                  <div class="reasons__item-title">Снизит расход промывных вод</div>
+                  <div class="reasons__item-text"></div>
+                </div>
+              </div>
+            </div>
+            <div class="reasons__col reasons__right">
+              <div class="reasons__item">
+                <div class="reasons__item-num">5</div>
+                <div class="reasons__item-text-block">
+                  <div class="reasons__item-title">Увеличит длительность фильтроцикла и скорость фильтрации</div>
+                  <div class="reasons__item-text"></div>
+                </div>
+              </div>
+              <div class="reasons__item">
+                <div class="reasons__item-num">6</div>
+                <div class="reasons__item-text-block">
+                  <div class="reasons__item-title">Снизит темп прироста потерь напора</div>
+                  <div class="reasons__item-text"></div>
+                </div>
+              </div>
+              <div class="reasons__item">
+                <div class="reasons__item-num">7</div>
+                <div class="reasons__item-text-block">
+                  <div class="reasons__item-title">Значительно сократит затраты на электроэнергию</div>
+                  <div class="reasons__item-text"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="divider">
+          <picture>
+            <source srcset="img/divider-sm.png" media="(max-width: 991px)"><img class="lazy" data-src="img/divider.png" alt="divider">
+          </picture>
+        </div>
+      </section>
+      <section class="infoblock" id="reasons">
+        <div class="infoblock__text-block">
+          <div class="infoblock__title title">Универсальная фильтрующая загрузка</div>
+          <div class="infoblock__text">Горелые породы могут быть использованы в качестве фильтрующей загрузки и поддерживающих слоев в скорых однослойных, двухслойных фильтрах, контактных осветителях, напорных фильтрах и префильтрах в хозяйственно-питьевом и промышленном водоснабжении.</div>
+        </div>
+        <div class="infoblock__rock-left"><img src="img/rock.png"></div>
+        <div class="infoblock__rock-right"><img src="img/rock.png"></div>
+        <div class="divider2"><img class="lazy" data-src="img/divider2.png"></div>
+      </section>
+      <section class="button-block button-block--learn-prices">
+        <div class="button-block__inner">
+          <div class="button-block__text-block">
+            <div class="button-block__title title">Узнать цену<br>фильтрующего материала</div>
+            <div class="button-block__text">Оставьте заявку или позвоните нам. Мы быстро рассчитаем стоимость заказа и&nbsp;отправим коммерческое предложение</div>
+          </div>
+          <div class="button-block__contacts-block">
+            <button class="button-block__btn btn js-open-modal" data-modal="compact">Получить предложение</button><a class="button-block__phone" href="tel:+79832238283">8 (983) 223-82-83</a><a class="button-block__email" href="mailto:argellit@mail.ru">argellit@mail.ru</a>
+            <div class="shedule">Понедельник–пятница<br>с 8:00 до 17:00</div>
+          </div>
+        </div>
+      </section>
+      <section class="composition" id="composition">
+        <div class="composition__inner">
+          <h2 class="composition__title title">Состав и&nbsp;характеристики горелых пород</h2>
+          <div class="composition__main-block">
+            <div class="composition__chemical">
+              <div class="composition__chemical-text">Химический состав горелых пород, производимых нашим предприятием:</div>
+              <div class="composition__chemical-infographics lazy" data-bg="img/rock-bg.png">
+                <div class="composition__chemical-flex-inner">
+                  <div class="composition__chemical-item">
+                    <div class="composition__chemical-formula">SiO2</div>
+                    <div class="composition__chemical-formula-ru">(диоксид кремния)</div>
+                    <div class="composition__chemical-percent">68,2%</div>
+                  </div>
+                  <div class="composition__chemical-item">
+                    <div class="composition__chemical-formula">AI2O3</div>
+                    <div class="composition__chemical-formula-ru">(оксид алюминия)</div>
+                    <div class="composition__chemical-percent">21,5%</div>
+                  </div>
+                </div>
+                <div class="composition__chemical-flex-inner">
+                  <div class="composition__chemical-item">
+                    <div class="composition__chemical-formula">Fe2O3</div>
+                    <div class="composition__chemical-formula-ru">(оксид железа)</div>
+                    <div class="composition__chemical-percent">4,7%</div>
+                  </div>
+                  <div class="composition__chemical-item composition__chemical-item--double">
+                    <div class="composition__chemical-item-inner">
+                      <div class="composition__chemical-formula">MgO</div>
+                      <div class="composition__chemical-formula-ru">(оксид магния)</div>
+                      <div class="composition__chemical-percent">5,6%</div>
+                    </div>
+                    <div class="composition__chemical-item-inner">
+                      <div class="composition__chemical-formula">MnO</div>
+                      <div class="composition__chemical-formula-ru">(оксид марганца)<br>и пр.</div>
+                      <div class="composition__chemical-percent"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="composition__params">
+              <div class="composition__params-title">Характеристики нашего фильтрующего материала</div>
+              <div class="composition__params-main">
+                <div class="composition__params-item">
+                  <div class="composition__params-name no-wrap">Эквивалентный диаметр</div>
+                  <div class="composition__params-value">от 1,12 до 1,23</div>
+                </div>
+                <div class="composition__params-item">
+                  <div class="composition__params-name">Плотность, т/м<sup>3</sup></div>
+                  <div class="composition__params-value">2,37–2,56</div>
+                </div>
+                <div class="composition__params-item">
+                  <div class="composition__params-name">Коэффициент неоднородности</div>
+                  <div class="composition__params-value">не более 2</div>
+                </div>
+                <div class="composition__params-item">
+                  <div class="composition__params-name">Насыпная объемная масса, кг/м</div>
+                  <div class="composition__params-value">1350</div>
+                </div>
+              </div>
+              <div class="composition__params-strength">
+                <div class="composition__params-subtitle">Механическая прочность, %</div>
+                <div class="composition__params-subtable-inner">
+                  <div class="composition__params-item">
+                    <div class="composition__params-name">Измельчаемость</div>
+                    <div class="composition__params-value">0,02–0,1 по&nbsp;массе</div>
+                  </div>
+                  <div class="composition__params-item">
+                    <div class="composition__params-name">Истираемость</div>
+                    <div class="composition__params-value">0,1–0,15 по&nbsp;массе</div>
+                  </div>
+                </div>
+              </div>
+              <div class="composition__params-porosity">
+                <div class="composition__params-subtitle">Пористость, %</div>
+                <div class="composition__params-subtable-inner">
+                  <div class="composition__params-item">
+                    <div class="composition__params-name">максимальная</div>
+                    <div class="composition__params-value">58</div>
+                  </div>
+                  <div class="composition__params-item">
+                    <div class="composition__params-name">среднее значение</div>
+                    <div class="composition__params-value">55</div>
+                  </div>
+                  <div class="composition__params-item">
+                    <div class="composition__params-name">минимальная</div>
+                    <div class="composition__params-value">52</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="composition__proofs" id="certs">
+            <div class="composition__proofs-item composition__proofs-item-1">
+              <div class="composition__proofs-icon composition__proofs-icon-1"><img src="img/proof1.png" alt="Ежедневный контроль качества"></div>
+              <div class="composition__proofs-text">Ежедневный контроль&nbsp;качества отделом технического контроля</div>
+            </div>
+            <div class="composition__proofs-item composition__proofs-item-2">
+              <div class="composition__proofs-icon composition__proofs-icon-2"><img src="img/proof2.png" alt="Соответствует ТУ 5712-001-48634843-99"></div>
+              <div class="composition__proofs-text">Соответствует<br><a href="img/ty.pdf" target="_blank">ТУ 5712-001-48634843-99</a>Горелая&nbsp;порода месторождения<br>«Дальние горы» (розовый песок)</div>
+            </div>
+            <div class="composition__proofs-item composition__proofs-item-3">
+              <div class="composition__proofs-icon composition__proofs-icon-3"><img src="img/proof3.png" alt="Сертификаты"></div>
+              <div class="composition__proofs-text"><span>СЕРТИФИКАТЫ:</span><a href="img/experts_conclusion_2019.pdf" target="_blank">Экспертное заключение</a><a href="img/sertificate.pdf" target="_blank">Протокол лабораторных испытаний</a><a href="img/registration.pdf" target="_blank">Свидетельство о государственной регистрации</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="fractions" id="fractions">
+        <h2 class="fractions__title title">Фракции фильтрующего материала</h2>
+        <div class="fractions__items">
+          <div class="fractions__item fractions__item--first">
+            <div class="fractions__icon-wrapper">
+              <svg class="icon icon-fractions-phone">
+                <use xlink:href="sprite.svg#fractions-phone"></use>
+              </svg>
+            </div>
+            <div class="fractions__item-text">Изготавливаем любые<br>фракции от 0,5 до 70 мм<br>под заказ</div><a class="fractions__item-phone" href="tel:+79832238283">8 (983) 223-82-83</a>
+          </div>
+          <div class="fractions__item lazy" data-bg="img/fractions1.jpg">
+            <div class="fractions__item-size">0,5–1,2 мм и 0,8–1,2 мм</div>
+            <button class="fractions__btn btn js-open-modal" data-modal="full" data-choosen-fraction="0,5/0,8 — 1,2">Узнать цену</button>
+          </div>
+          <div class="fractions__item lazy" data-bg="img/fractions2.jpg">
+            <div class="fractions__item-size">0,8–2,0 мм</div>
+            <button class="fractions__btn btn js-open-modal" data-modal="full" data-choosen-fraction="0,8 — 2,0">Узнать цену</button>
+          </div>
+          <div class="fractions__item lazy" data-bg="img/fractions3.jpg">
+            <div class="fractions__item-size">2,0–4,0 мм и 2,0–5,0 мм</div>
+            <button class="fractions__btn btn js-open-modal" data-modal="full" data-choosen-fraction="2,0 — 4,0/5,0">Узнать цену</button>
+          </div>
+          <div class="fractions__item lazy" data-bg="img/fractions4.jpg">
+            <div class="fractions__item-size">5,0–10,0 мм</div>
+            <button class="fractions__btn btn js-open-modal" data-modal="full" data-choosen-fraction="5,0 — 10,0">Узнать цену</button>
+          </div>
+          <div class="fractions__item lazy" data-bg="img/fractions5.jpg">
+            <div class="fractions__item-size">10,0–20,0,  20,0–40,0<br>и 40,0–70,0 мм</div>
+            <button class="fractions__btn btn js-open-modal" data-modal="full" data-choosen-fraction="10,0 — 20,0">Узнать цену</button>
+          </div>
+        </div>
+        <div class="divider2"><img class="lazy" data-src="img/divider2.png"></div>
+      </section>
+      <section class="button-block button-block--tenders">
+        <div class="button-block__inner">
+          <div class="button-block__text-block">
+            <div class="button-block__title title">Участвуем в тендерах</div>
+            <div class="button-block__text">Участвуем в госзакупках по 44-ФЗ и 223-ФЗ. Аккредитованы на основных федеральных площадках: Сбербанк АСТ, Заказа РФ, Росэлторг, ЭТП ГПБ и др.</div>
+          </div>
+          <div class="button-block__contacts-block">
+            <button class="button-block__btn btn js-open-modal" data-modal="compact">Узнать подробнее</button><a class="button-block__phone" href="tel:+79832238283">8 (983) 223-82-83</a><a class="button-block__email" href="mailto:argellit@mail.ru">argellit@mail.ru</a>
+            <div class="shedule">Понедельник–пятница<br>с 8:00 до 17:00</div>
+          </div>
+        </div>
+      </section>
+      <section class="how-to-order" id="how-to-order">
+        <div class="how-to-order__inner">
+          <h2 class="how-to-order__title title">Как сделать заказ</h2>
+          <div class="how-to-order__items">
+            <div class="how-to-order__item how-to-order__item--first">
+              <div class="how-to-order__first-text">Оформите заказ по телефону или почте<a class="how-to-order__phone" href="tel:+79832238283">+7 (983) 223-82-83</a><a class="how-to-order__mail" href="mailto:argellit@mail.ru">argellit@mail.ru</a>или нажмите кнопку,
+                и&nbsp;мы&nbsp;перезвоним вам сами
+              </div>
+              <button class="how-to-order__call-request btn js-open-modal" data-modal="compact">Перезвоните мне</button>
+              <div class="how-to-order__bg-num">1</div>
+            </div>
+            <div class="how-to-order__item">
+              <div class="how-to-order__icon">
+                <svg class="icon icon-calculator">
+                  <use xlink:href="sprite.svg#calculator"></use>
+                </svg>
+              </div>
+              <div class="how-to-order__text">Рассчитаем стоимость заказа. Выберем удобный и&nbsp;недорогой способ доставки</div>
+              <div class="how-to-order__bg-num">2</div>
+            </div>
+            <div class="how-to-order__item">
+              <div class="how-to-order__icon">
+                <svg class="icon icon-receipt">
+                  <use xlink:href="sprite.svg#receipt"></use>
+                </svg>
+              </div>
+              <div class="how-to-order__text">Отправим счет на оплату.<br>Счет можем выслать как с НДС, так и без НДС<br><a href="#nds-more">Подробнее</a></div>
+              <div class="how-to-order__bg-num">3</div>
+            </div>
+            <div class="how-to-order__item">
+              <div class="how-to-order__icon">
+                <svg class="icon icon-rock">
+                  <use xlink:href="sprite.svg#rock"></use>
+                </svg>
+              </div>
+              <div class="how-to-order__text">После оплаты изготовим и подготовим к отгрузке материал в течение 1-5 дней</div>
+              <div class="how-to-order__bg-num">4</div>
+            </div>
+            <div class="how-to-order__item">
+              <div class="how-to-order__icon">
+                <svg class="icon icon-push-cart">
+                  <use xlink:href="sprite.svg#push-cart"></use>
+                </svg>
+              </div>
+              <div class="how-to-order__text">Убедимся, что вы получили заказ, и отправим закрывающие документы</div>
+              <div class="how-to-order__bg-num">5</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="delivery-and-payment">
+        <div class="delivery-and-payment__info">
+          <div class="delivery-and-payment__title title" id="delivery">Доставка и оплата</div>
+          <div class="delivery-and-payment__text">
+            <div class="delivery-and-payment__text-block">
+              <div class="delivery-and-payment__subtitle">Оплата</div>
+              <p>Мы работаем по полной и частичной предоплате. После согласования заказа подготовим счет в течение рабочего дня. Счет можем выставить как с НДС, так и без НДС. Укажите этот параметр в заявке, и мы сразу учтем это при формировании счета.</p>
+            </div>
+            <div class="delivery-and-payment__text-block">
+              <div class="delivery-and-payment__subtitle">Доставка</div>
+              <p>Доставка возможна во все регионы России и страны СНГ. При оформлении заказа мы просчитаем несколько видов доставки, чтобы выбрать самый быстрый и удобный для вас.</p>
+              <p>Доставка осуществляется железнодорожным и автотранспортом, любыми транспортными компаниями. Также вы можете забрать заказ сами со склада по адресу: г.&nbspКиселевск, ул. Базовая, 6а.</p>
+            </div>
+            <div class="delivery-and-payment__text-block">
+              <div class="delivery-and-payment__subtitle">Удобная фасовка</div>
+              <p>Для удобства доставки материал фасуется в мешки по 30 килограмм и в усиленные мягкие контейнеры по 1 тонне. Упаковка надежная: при аккуратной погрузке не рвется и не расходится по швам.</p>
+            </div>
+            <div class="delivery-and-payment__bordered-block">Наши условия очень гибкие:<br>если у вас есть ограничения или особые требования, мы подготовим предложение специально для вас.</div>
+          </div>
+        </div>
+        <div class="delivery-and-payment__form">
+          <form class="delivery-and-payment__form">
+            <div class="delivery-and-payment__form-container">
+              <div class="delivery-and-payment__form-title">Рассчитать стоимость заказа с&nbsp;доставкой</div>
+              <div class="delivery-and-payment__fraction-size">
+                <div class="delivery-and-payment__fraction-text">Размер фракции (от 0,5 до 70 мм)</div>
+                <div class="delivery-and-payment__fractions">
+                  <div class="form-group">
+                    <input class="delivery-input-radio" type="radio" name="delivery-and-payment-fraction" id="delivery-and-payment-fraction1" value="0,5/0,8 — 1,2">
+                    <label class="modal-button radio-label" for="delivery-and-payment-fraction1">0,5/0,8 — 1,2</label>
+                  </div>
+                  <div class="form-group">
+                    <input class="delivery-input-radio" type="radio" name="delivery-and-payment-fraction" id="delivery-and-payment-fraction2" value="0,8 — 2,0">
+                    <label class="modal-button radio-label" for="delivery-and-payment-fraction2">0,8 — 2,0</label>
+                  </div>
+                  <div class="form-group">
+                    <input class="delivery-input-radio" type="radio" name="delivery-and-payment-fraction" id="delivery-and-payment-fraction3" value="2,0 — 4,0/5,0">
+                    <label class="modal-button radio-label" for="delivery-and-payment-fraction3">2,0 — 4,0/5,0</label>
+                  </div>
+                  <div class="form-group">
+                    <input class="delivery-input-radio" type="radio" name="delivery-and-payment-fraction" id="delivery-and-payment-fraction4" value="5,0 — 10,0">
+                    <label class="modal-button radio-label" for="delivery-and-payment-fraction4">5,0 — 10,0</label>
+                  </div>
+                  <div class="form-group">
+                    <input class="delivery-input-radio" type="radio" name="delivery-and-payment-fraction" id="delivery-and-payment-fraction5" value="10,0 — 20,0">
+                    <label class="modal-button radio-label" for="delivery-and-payment-fraction5">10,0 — 20,0</label>
+                  </div><div class="form-group">
+<input class="delivery-input-radio" type="radio" name="delivery-and-payment-fraction" id="delivery-and-payment-fraction6">
+<label class="modal-button radio-label input-in-radio-label" for="delivery-and-payment-fraction6">...</label>
+<input class="input-in-radio js-input-in-radio input-in-radio--delivery" type="number" name="input-in-radio-delivery" id="input-in-radio-delivery">
+</div>
+                </div>
+              </div>
+              <div class="delivery-and-payment__inner-container">
+                <div class="delivery-and-payment__forms-wrapper">
+                  <div class="delivery-and-payment__material-amount">
+                    <label class="label-amount" for="delivery-and-payment-amount">Количество материала</label>
+                    <input class="delivery-and-payment-input" type="number" name="delivery-and-payment-amount" id="delivery-and-payment-amount" placeholder="от 30 кг">
+                  </div>
+                  <div class="delivery-and-payment__pay-type">
+                    <div class="delivery-and-payment__input-text">Оплата</div>
+                    <div class="delivery-and-payment__pay-inner">
+                      <div class="form-group">
+                        <input class="delivery-and-payment-input-pay" type="radio" name="delivery-and-payment-pay" id="delivery-and-payment-pay1" value="с НДС">
+                        <label class="modal-button radio-label radio-label--pay radio-label--delivery" for="delivery-and-payment-pay1">с НДС</label>
+                      </div>
+                      <div class="form-group">
+                        <input class="delivery-and-payment-input-pay" type="radio" name="delivery-and-payment-pay" id="delivery-and-payment-pay" value="без НДС">
+                        <label class="modal-button radio-label radio-label--pay radio-label--delivery" for="delivery-and-payment-pay">без НДС</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="delivery-and-payment__adress">
+                  <div class="delivery-and-payment__input-text">Ваш адрес (для расчета доставки)</div>
+                  <div class="delivery-and-payment__forms-wrapper delivery-and-payment__forms-wrapper--address">
+                    <div class="form-group">
+                      <input class="delivery-and-payment-city delivery-and-payment-input js-callback-input" type="text" name="delivery-and-payment-city" id="delivery-and-payment-city">
+                      <label for="delivery-and-payment-city">Город</label>
+                    </div>
+                    <div class="form-group">
+                      <input class="delivery-and-payment-input js-callback-input" type="text" name="delivery-and-payment-street" id="delivery-and-payment-street">
+                      <label for="delivery-and-payment-street">Улица, номер дома</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="delivery-and-payment__input-text">Ваши контакты</div>
+                <div class="form-group">
+                  <input class="delivery-and-payment-input js-callback-input" type="text" name="delivery-and-payment-name" id="delivery-and-payment-name">
+                  <label for="delivery-and-payment-name">Имя*</label>
+                  <div class="error-message">Это поле обязательно для заполнения</div>
+                </div>
+                <div class="delivery-and-payment__forms-wrapper delivery-and-payment__forms-wrapper--address">
+                  <div class="form-group">
+                    <input class="delivery-and-payment-input js-callback-input" type="tel" name="delivery-and-payment-phone" id="delivery-and-payment-phone">
+                    <label for="delivery-and-payment-phone">Телефон*</label>
+                    <div class="error-message">Это поле обязательно для заполнения</div>
+                  </div>
+                  <div class="form-group">
+                    <input class="delivery-and-payment-input js-callback-input" type="text" name="delivery-and-payment-email" id="delivery-and-payment-email-big">
+                    <label for="delivery-and-payment-email-big">E-mail</label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <textarea class="delivery-and-payment-input" name="delivery-and-payment" id="delivery-and-payment-question" rows="8"></textarea>
+                  <label for="delivery-and-payment-question">Ваш вопрос или информация для менеджера</label>
+                </div>
+                <div class="submit-btn__wrapper">
+                  <button class="btn submit-btn submit-btn--delivery" type="submit" id="delivery-and-payment-submit">Рассчитать</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="mining lazy" id="mining" data-bg="img/mining-bg.jpg">
+        <div class="mining__inner">
+          <div class="mining__title">Где мы добываем и обрабатываем горелую породу</div>
+          <div class="mining__text">
+            <p>Наше предприятие работает с 1998 года. Мы добываем горелую породу на месторождении «Дальние горы». Дробление и фасовка породы происходит на предприятии ООО «Аргеллит» в 5 км от месторождения.</p>
+            <p>Наше производство единственное в России, так как только местная горелая порода обладает уникальными фильтрующими свойствами. Залежи данного материала образовались здесь миллионы лет назад в результате подземных пожаров без доступа воздуха и высокого давления из аргеллитов, алевролитов и песчаников.  Это придало горелым породам месторождения уникальных свойства: высокую пористость и механическую прочность.</p>
+          </div>
+        </div>
+        <div class="mining__lable">Месторождение аргеллита «Дальние горы»</div>
+      </section>
+      <section class="faq" id="faq">
+        <div class="faq__inner">
+          <h2 class="faq__title title">Нас часто спрашивают</h2>
+          <ul class="accordion">
+            <li><a href="#">Где используется материал из дробленых горелых пород? Подойдет ли мне горелая порода?</a>
+              <div class="accordion-content">
+                <p>Наша фильтрующая загрузка универсальна: она подходит как для фильтрации питьевой воды, так и для очистки сточных вод. Горелые породы можно использовать для скорых однослойных, двухслойных, напорных фильтров и префильтров, контактных осветителей.</p>
+                <p>Большой выбор фракций позволяет подобрать оптимальный размер загрузки. Также мы изготавливаем фракции по индивидуальному заказу.</p>
+                <p><em>Загрузка фильтров горелыми породами позволяет существенно сэкономить: сократить объем ежегодной досыпки, снизить расход промывных вод и темп прироста потерь напора, сократить потребление электроэнергии.</em></p>
+              </div>
+            </li>
+            <li><a href="#">Можно ли купить ваш фильтрующий материал в другом месте?</a>
+              <div class="accordion-content">
+                <p>Нет, мы единственный производитель и поставщик фильтрующего материала из дробленых горелых пород в России. Единственный официальный торговый представитель нашего материала — ООО Торговый дом «Аргеллит», который также находится в городе Киселевске.</p>
+              </div>
+            </li>
+            <li><a href="#">Сколько фильтрующего материала можно заказать?</a>
+              <div class="accordion-content">
+                <p>Вы можете заказать любой объем фильтрующего материала из дробленой горелой породы. Мы фасуем материал в мешки по 30 кг и 1 тонне, поэтому желательно заказывать объем материала кратный этому весу.</p>
+              </div>
+            </li>
+            <li><a href="#">Можно ли заказать индивидуальное изготовление фракции?</a>
+              <div class="accordion-content">
+                <p>Да, мы можем изготовить любую фракцию по индивидуальному заказу. Укажите нужные параметры при оформлении заказа.</p>
+              </div>
+            </li>
+            <li><a href="#">Сколько занимает изготовление фракций?</a>
+              <div class="accordion-content">
+                <p>Мы изготавливаем необходимые фракции под заказ  в течение 1–5 дней. Если вы хотите заказать фракцию нестандартных размеров, менеджер сообщит сроки ее изготовления по телефону.</p>
+              </div>
+            </li>
+            <li><a href="#">Участвуете ли вы в тендерах? На каких площадках?</a>
+              <div class="accordion-content">
+                <p>Многие наши клиенты закупают фильтрующий материал на тендерной основе, поэтому мы хорошо знакомы с системой госзакупок.</p>
+                <p>Мы участвуем в госзакупках как по 44-ФЗ, так и по 223-ФЗ.</p>
+                <p>Имеем аккредитацию на основных федеральных площадках:</p>
+                <ul>
+                  <li>Сбербанк АСТ</li>
+                  <li>Заказ РФ (Общероссийская система электронной торговли ОСЭТ)</li>
+                  <li>Росэлторг (Единая электронная торговая площадка ЕЭТП)</li>
+                  <li>Национальная электронная площадка (НЭП-Фабрикант)</li>
+                  <li>РТС-Тендер</li>
+                  <li>ЭТП ГПБ (Газпромбанк) и др.</li>
+                </ul>
+              </div>
+            </li>
+            <li><a id="nds-more" href="#">Включен ли в счет на оплату НДС?</a>
+              <div class="accordion-content">
+                <p>Мы можем сформировать счет как с НДС, так и без него. Сообщите менеджеру, какой вид счета вам нужен при оформлении заказа.</p>
+              </div>
+            </li>
+            <li><a href="#">Сколько стоит доставка? Как рассчитать ее стоимость?</a>
+              <div class="accordion-content">
+                <p>Стоимость доставки зависит от расстояния до вашего города и способа доставки.</p>
+                <p>Мы доставляем заказы несколькими способами: ж/д транспортом, автотранспортом, любыми транспортными компаниями. Менеджер поможет рассчитать стоимость доставки несколькими способами, чтобы выбрать оптимальный по цене и условиям вид перевозки.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="contacts__info">
+          <div class="contacts__inner">
+            <div class="contacts__title title">Контакты</div>
+            <div class="contacts__company">ООО «Аргеллит»</div>
+            <div class="contacts__address">Адрес: Кемеровская область, г.&nbsp;Киселевск, ул. Базовая, 6а</div>
+            <div class="contacts__wrapper">
+              <div class="contacts__left">
+                <div class="contacts__left-top"><span class="contacts__subtitle">Отдел продаж:</span><a class="contacts__phone" href="tel:+79832238283">8 (983) 223-82-83</a>
+                  <p>e-mail:<a href="mailto:argellit@mail.ru"> argellit@mail.ru</a></p>
+                  <p>График работы:</p>
+                  <p>Пн - Пт с 08:00 до 17:00</p>
+                  <p>(до 13:00 по Московскому времени)</p>
+                </div>
+                <div class="contacts__left-bottom"><span class="contacts__subtitle">Директор:</span>
+                  <p>Бархатов Сергей Николаевич</p>
+                  <p>Телефон:<a href="tel:+79059619979"> +7 (905) 961-99-79</a></p>
+                  <p>e-mail:<a href="mailto:argellit@mail.ru"> argellit@mail.ru</a></p>
+                </div>
+              </div>
+              <div class="contacts__right"><span class="contacts__subtitle">Торговый представитель:</span>
+                <p>ООО Торговый дом «Аргеллит»</p>
+                <p>Адрес: Кемеровская область,</p>
+                <p>г. Киселевск, ул. 50 лет города, 39</p>
+                <p>Телефон:<a href="tel:+79059619979"> +7 (905) 961-99-79</a></p>
+                <p>e-mail:<a href="mailto:argellit@mail.ru"> argellit@mail.ru</a></p>
+                <p>График работы:</p>
+                <p>Пн–Пт с 08:00 до 17:00</p>
+                <p>(до 13:00 по Московскому времени)</p><a class="btn contacts__btn" href="img/reqs.pdf" target="_blank">Скачать реквизиты</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contacts__map" id="contacts-map"></div>
+      </section>
+      <footer class="footer">
+        <div class="footer__inner"><span>Copyright &#169; 2020</span>
+          <div class="footer__agreements"><a class="footer__agreements__ua" href="/user-agreement">Пользовательское соглашение</a><a class="footer__agreements__pp" href="/privacy-policy">Политика конфиденциальности</a></div><span>Разработка сайта:&nbsp;<a href="https://www.tempart.ru/">TempArt</a></span>
+        </div>
+      </footer>
+      <div class="modal modal-callback modal-callback--sm">
+        <div class="modal__bg"></div>
+        <form class="modal-callback__form">
+          <div class="modal__inner">
+            <div class="modal__container">
+              <div class="modal-callback__close-cross js-close-modal">
+                <svg class="icon icon-close">
+                  <use xlink:href="sprite.svg#close"></use>
+                </svg>
+              </div>
+              <div class="modal-callback__title">Оставить заявку</div>
+              <div class="modal-callback__subtitle">Ваши контакты
+                <div class="form-group">
+                  <input class="callback-input js-callback-input" type="text" name="callback-name" id="callback-name">
+                  <label for="callback-name">Имя*</label>
+                  <div class="error-message">Это поле обязательно для заполнения</div>
+                </div>
+                <div class="form-group">
+                  <input class="callback-input js-callback-input" type="tel" name="callback-phone" id="callback-phone">
+                  <label for="callback-phone">Телефон*</label>
+                  <div class="error-message">Это поле обязательно для заполнения</div>
+                </div>
+                <div class="form-group">
+                  <input class="callback-input js-callback-input" type="text" name="callback-email" id="callback-email">
+                  <label for="callback-email">E-mail</label>
+                </div>
+                <div class="form-group">
+                  <textarea class="callback-input js-callback-input" name="callback-question" id="callback-question"></textarea>
+                  <label for="callback-question">Ваш вопрос или информация для менеджера</label>
+                </div>
+                <div class="submit-btn__wrapper">
+                  <button class="btn submit-btn hiding-btn" type="submit" id="callback-submit">Отправить</button>
+                </div>
+              </div>
+              <div class="modal-callback__additional-toggle">
+                <div class="modal-callback__additional-text">Укажите дополнительные параметры,<br> и мы сразу подготовим детальное предложение</div>
+                <button class="modal-callback__additional-button modal-button js-additional-button"><span>Указать дополнительные параметры</span></button>
+              </div>
+            </div>
+            <div class="modal-callback__additional-data lazy" data-bg="img/modal-bg.png">
+              <div class="modal__container">
+                <div class="modal-callback__fraction-size">
+                  <div class="modal-callback__fraction-text">Выберите размер фракции (от 0,5 до 70 мм)</div>
+                  <div class="modal-callback__fractions">
+                    <div class="form-group">
+                      <input class="callback-input-radio" type="radio" name="callback-fraction" id="callback-fraction1" value="0,5/0,8 — 1,2">
+                      <label class="modal-button radio-label" for="callback-fraction1">0,5/0,8 — 1,2</label>
+                    </div>
+                    <div class="form-group">
+                      <input class="callback-input-radio" type="radio" name="callback-fraction" id="callback-fraction2" value="0,8 — 2,0">
+                      <label class="modal-button radio-label" for="callback-fraction2">0,8 — 2,0</label>
+                    </div>
+                    <div class="form-group">
+                      <input class="callback-input-radio" type="radio" name="callback-fraction" id="callback-fraction3" value="2,0 — 4,0/5,0">
+                      <label class="modal-button radio-label" for="callback-fraction3">2,0 — 4,0/5,0</label>
+                    </div>
+                    <div class="form-group">
+                      <input class="callback-input-radio" type="radio" name="callback-fraction" id="callback-fraction4" value="5,0 — 10,0">
+                      <label class="modal-button radio-label" for="callback-fraction4">5,0 — 10,0</label>
+                    </div>
+                    <div class="form-group">
+                      <input class="callback-input-radio" type="radio" name="callback-fraction" id="callback-fraction5" value="10,0 — 20,0">
+                      <label class="modal-button radio-label" for="callback-fraction5">10,0 — 20,0</label>
+                    </div><div class="form-group">
+<input class="callback-input-radio" type="radio" name="callback-fraction" id="callback-fraction6">
+<label class="modal-button radio-label input-in-radio-label" for="callback-fraction6">...</label>
+<input class="input-in-radio js-input-in-radio input-in-radio--modal" type="number" name="input-in-radio-modal" id="input-in-radio-modal">
+</div>
+                  </div>
+                </div>
+                <div class="modal-callback__inner-container">
+                  <div class="modal-callback__material-amount">
+                    <label class="label-amount" for="callback-amount">Количество материала</label>
+                    <input class="callback-input" type="text" name="callback-amount" id="callback-amount" placeholder="от 30 кг">
+                  </div>
+                  <div class="modal-callback__pay-type">
+                    <div class="modal-callback__input-text">Оплата</div>
+                    <div class="modal-callback__pay-inner">
+                      <div class="form-group">
+                        <input class="callback-input-pay" type="radio" name="callback-pay" id="callback-pay1" value="с НДС">
+                        <label class="modal-button radio-label radio-label--pay" for="callback-pay1">с НДС</label>
+                      </div>
+                      <div class="form-group">
+                        <input class="callback-input-pay" type="radio" name="callback-pay" id="callback-pay2" value="без НДС">
+                        <label class="modal-button radio-label radio-label--pay" for="callback-pay2">без НДС</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-callback__adress">
+                    <div class="modal-callback__input-text">Ваш адрес (для расчета доставки)</div>
+                    <div class="form-group">
+                      <input class="callback-input js-callback-input" type="text" name="callback-city" id="callback-city">
+                      <label for="callback-city">Город</label>
+                    </div>
+                    <div class="form-group">
+                      <input class="callback-input js-callback-input" type="text" name="callback-street" id="callback-street">
+                      <label for="callback-street">Улица, номер дома</label>
+                    </div>
+                  </div>
+                  <div class="submit-btn__wrapper">
+                    <button class="btn submit-btn" type="submit" id="callback-submit-additional">Отправить</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal modal-callback modal-callback--big">
+        <div class="modal__bg"></div>
+        <form class="modal-callback__form">
+          <div class="modal__inner">
+            <div class="modal__container">
+              <div class="modal-callback__close-cross js-close-modal">
+                <svg class="icon icon-close">
+                  <use xlink:href="sprite.svg#close"></use>
+                </svg>
+              </div>
+              <div class="modal-callback__title">Оставить заявку</div>
+              <div class="modal-callback__subtitle">Ваши контакты
+                <div class="form-group">
+                  <input class="callback-input js-callback-input" type="text" name="callback-name-big" id="callback-name-big">
+                  <label for="callback-name-big">Имя*</label>
+                  <div class="error-message">Это поле обязательно для заполнения</div>
+                </div>
+                <div class="form-group">
+                  <input class="callback-input js-callback-input" type="tel" name="callback-phone-big" id="callback-phone-big">
+                  <label for="callback-phone-big">Телефон*</label>
+                  <div class="error-message">Это поле обязательно для заполнения</div>
+                </div>
+                <div class="form-group">
+                  <input class="callback-input js-callback-input" type="text" name="callback-email-big" id="callback-email-big">
+                  <label for="callback-email-big">E-mail</label>
+                </div>
+                <div class="form-group">
+                  <textarea class="callback-input" name="callback-question-big" id="callback-question-big" rows="8"></textarea>
+                  <label for="callback-question-big">Ваш вопрос или информация для менеджера</label>
+                </div>
+                <div class="submit-btn__wrapper">
+                  <button class="btn submit-btn" type="submit" id="callback-submit-big">Отправить</button>
+                </div>
+              </div>
+            </div>
+            <div class="modal-callback__additional-data lazy" data-bg="img/modal-bg-big.png">
+              <div class="modal__container">
+                <div class="modal-callback__additional-text">Укажите дополнительные параметры,<br> и мы сразу подготовим детальное предложение</div>
+                <div class="modal-callback__fraction-size">
+                  <div class="modal-callback__fraction-text">Выберите размер фракции (от 0,5 до 70 мм)</div>
+                  <div class="modal-callback__fractions">
+                    <div class="form-group">
+                      <input class="callback-input-radio" type="radio" name="callback-fraction-big" id="callback-fraction1-big" value="0,5/0,8 — 1,2">
+                      <label class="modal-button radio-label" for="callback-fraction1-big">0,5/0,8 — 1,2</label>
+                    </div>
+                    <div class="form-group">
+                      <input class="callback-input-radio" type="radio" name="callback-fraction-big" id="callback-fraction2-big" value="0,8 — 2,0">
+                      <label class="modal-button radio-label" for="callback-fraction2-big">0,8 — 2,0</label>
+                    </div>
+                    <div class="form-group">
+                      <input class="callback-input-radio" type="radio" name="callback-fraction-big" id="callback-fraction3-big" value="2,0 — 4,0/5,0">
+                      <label class="modal-button radio-label" for="callback-fraction3-big">2,0 — 4,0/5,0</label>
+                    </div>
+                    <div class="form-group">
+                      <input class="callback-input-radio" type="radio" name="callback-fraction-big" id="callback-fraction4-big" value="5,0 — 10,0">
+                      <label class="modal-button radio-label" for="callback-fraction4-big">5,0 — 10,0</label>
+                    </div>
+                    <div class="form-group">
+                      <input class="callback-input-radio" type="radio" name="callback-fraction-big" id="callback-fraction5-big" value="10,0 — 20,0">
+                      <label class="modal-button radio-label" for="callback-fraction5-big">10,0 — 20,0</label>
+                    </div><div class="form-group">
+<input class="callback-input-radio" type="radio" name="callback-fraction-big" id="callback-fraction6-big">
+<label class="modal-button radio-label input-in-radio-label" for="callback-fraction6-big">...</label>
+<input class="input-in-radio js-input-in-radio input-in-radio--modal" type="number" name="input-in-radio-modal" id="input-in-radio-modal">
+</div>
+                  </div>
+                </div>
+                <div class="modal-callback__inner-container">
+                  <div class="modal-callback__forms-wrapper">
+                    <div class="modal-callback__material-amount">
+                      <label class="label-amount" for="callback-amount-big">Количество материала</label>
+                      <input class="callback-input" type="number" name="callback-amount" id="callback-amount-big" placeholder="от 30 кг">
+                    </div>
+                    <div class="modal-callback__pay-type">
+                      <div class="modal-callback__input-text">Оплата</div>
+                      <div class="modal-callback__pay-inner">
+                        <div class="form-group">
+                          <input class="callback-input-pay" type="radio" name="callback-pay-big" id="callback-pay1-big" value="с НДС">
+                          <label class="modal-button radio-label radio-label--pay radio-label--modal" for="callback-pay1-big">с НДС</label>
+                        </div>
+                        <div class="form-group">
+                          <input class="callback-input-pay" type="radio" name="callback-pay-big" id="callback-pay2-big" value="без НДС">
+                          <label class="modal-button radio-label radio-label--pay radio-label--modal" for="callback-pay2-big">без НДС</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-callback__adress">
+                    <div class="modal-callback__input-text">Ваш адрес (для расчета доставки)</div>
+                    <div class="modal-callback__forms-wrapper modal-callback__forms-wrapper--address">
+                      <div class="form-group">
+                        <input class="сallback-city callback-input js-callback-input" type="text" name="callback-city-big" id="callback-city-big">
+                        <label for="callback-city-big">Город</label>
+                      </div>
+                      <div class="form-group">
+                        <input class="callback-input js-callback-input" type="text" name="callback-street-big" id="callback-street-big">
+                        <label for="callback-street-big">Улица, номер дома</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal modal-callback modal-success">
+        <div class="modal__bg"></div>
+        <div class="modal__inner lazy" data-bg="img/modal-bg-success.png">
+          <div class="modal-callback__close-cross js-close-modal">
+            <svg class="icon icon-close">
+              <use xlink:href="sprite.svg#close"></use>
+            </svg>
+          </div>
+          <div class="modal-success__icon"></div>
+          <div class="modal-success__title">Заявка отправлена</div>
+          <div class="modal-success__subtitle">Мы подготовим предложение и&nbsp;перезвоним вам</div>
+          <div class="modal-success__text">Постраемся ответить вам сегодня,<br>но из-за разницы во времени (МСК +4 часа) ожидание может быть немного дольше</div>
+        </div>
+      </div>
+      <div class="modal modal-callback modal-policies modal-policies--user-agreement">
+        <div class="modal__bg"></div>
+        <div class="modal__inner">
+          <div class="modal-callback__close-cross js-close-modal">
+            <svg class="icon icon-close">
+              <use xlink:href="sprite.svg#close"></use>
+            </svg>
+          </div>
+          <div class="title">Пользовательское соглашение</div><ol class="user_agreement">
+<li>Общие положения
+<ol>
+<li>Настоящее Пользовательское соглашение (далее&nbsp;— Соглашение) относится к&nbsp;Сайту, расположенному по&nbsp;адресу argellit.ru.</li>
+<li>Сайт argellit.ru (далее&nbsp;— Сайт) является собственностью Общество с ограниченной ответственностью «Аргеллит».</li>
+<li>Настоящее Соглашение регулирует отношения между Администрацией Сайта и&nbsp;Пользователем данного Сайта.</li>
+<li>Администрация Сайта оставляет за&nbsp;собой право в&nbsp;любое время изменять, добавлять или&nbsp;удалять пункты настоящего Соглашения без&nbsp;уведомления Пользователя.</li>
+<li>Продолжение использования Сайта Пользователем означает принятие Соглашения и&nbsp;изменений, внесенных в&nbsp;настоящее Соглашение.</li>
+<li>Пользователь несет персональную ответственность за&nbsp;проверку настоящего Соглашения на&nbsp;наличие изменений в&nbsp;нем.</li>
+</ol>
+</li>
+<li>Определения терминов
+<ol>
+<li>В&nbsp;настоящем Пользовательском соглашении используются следующие термины:
+<ol>
+<li>«Администрация Сайта»&nbsp;— уполномоченные сотрудники управления Сайтом, действующие от&nbsp;имени Общество с ограниченной ответственностью «Аргеллит», которые организуют и&nbsp;(или) осуществляют обработку персональных данных, а&nbsp;также определяют цели обработки персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с&nbsp;персональными данными.</li>
+<li>«Пользователь Сайта» (далее&nbsp;— Пользователь)&nbsp;— лицо, имеющее доступ к&nbsp;Сайту, посредством сети Интернет и&nbsp;использующее Сайт.</li>
+<li>«Содержание Сайта» (далее&nbsp;— Содержание)&nbsp;— охраняемые результаты интеллектуальной деятельности, включая тексты литературных произведений, их&nbsp;названия, предисловия, аннотации, статьи, иллюстрации, обложки, музыкальные произведения с&nbsp;текстом или без&nbsp;текста, графические, текстовые, фотографические, производные, составные и&nbsp;иные произведения, пользовательские интерфейсы, визуальные интерфейсы, названия товарных знаков, логотипы, программы, базы данных, а&nbsp;также дизайн, структура, выбор, координация, внешний вид, общий стиль и&nbsp;расположение данного Содержания, входящего в&nbsp;состав Сайта и&nbsp;другие объекты интеллектуальной собственности все вместе и/или по&nbsp;отдельности, содержащиеся на&nbsp;Сайте.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Предмет соглашения
+<ol>
+<li>Предметом настоящего Соглашения является предоставление Пользователю доступа к&nbsp;содержащейся на&nbsp;Сайте информации и&nbsp;оказываемым услугам.
+<ol>
+<li>Под&nbsp;действие настоящего Соглашения подпадают все существующие (реально функционирующие) на&nbsp;данный момент услуги (сервисы) Сайта, а&nbsp;также любые их&nbsp;последующие модификации и&nbsp;появляющиеся в&nbsp;дальнейшем дополнительные услуги (сервисы).</li>
+</ol>
+</li>
+<li>Доступ к&nbsp;Сайту предоставляется на&nbsp;добровольной основе.</li>
+<li>Настоящее Соглашение является публичной офертой. Получая доступ к&nbsp;Сайту Пользователь считается присоединившимся к&nbsp;настоящему Соглашению.</li>
+<li>Использование материалов и&nbsp;сервисов Сайта регулируется нормами действующего законодательства Российской Федерации</li>
+</ol>
+</li>
+<li>Права и&nbsp;обязанности сторон
+<ol>
+<li>Администрация Сайта вправе:
+<ol>
+<li>Изменять правила пользования Сайтом, а&nbsp;также изменять содержание данного Сайта. Изменения вступают в&nbsp;силу с&nbsp;момента публикации новой редакции Соглашения на&nbsp;Сайте.</li>
+<li>Ограничить доступ к&nbsp;Сайту в&nbsp;случае нарушения Пользователем условий настоящего Соглашения.</li>
+</ol>
+</li>
+<li>Пользователь вправе:
+<ol>
+<li>Пользоваться всеми имеющимися на&nbsp;Сайте услугами.</li>
+<li>Задавать любые вопросы, относящиеся к&nbsp;услугам.</li>
+<li>Пользоваться Сайтом исключительно в&nbsp;целях и&nbsp;порядке, предусмотренных Соглашением и&nbsp;не&nbsp;запрещенных законодательством Российской Федерации.</li>
+</ol>
+</li>
+<li>Пользователь Сайта обязуется:
+<ol>
+<li>Предоставлять по&nbsp;запросу Администрации Сайта дополнительную информацию, которая имеет непосредственное отношение к&nbsp;предоставляемым услугам данного Сайта.</li>
+<li>Соблюдать имущественные и&nbsp;неимущественные права авторов и&nbsp;иных правообладателей при&nbsp;использовании Сайта.</li>
+<li>Не&nbsp;предпринимать действий, которые могут рассматриваться как&nbsp;нарушающие нормальную работу Сайта.</li>
+<li>Не&nbsp;распространять с&nbsp;использованием Сайта любую конфиденциальную и&nbsp;охраняемую законодательством Российской Федерации информацию о&nbsp;физических либо юридических лицах.</li>
+<li>Избегать любых действий, в&nbsp;результате которых может быть нарушена конфиденциальность охраняемой законодательством Российской Федерации информации.</li>
+<li>Не&nbsp;использовать Сайт для распространения информации рекламного характера, иначе как с&nbsp;согласия Администрации Сайта.</li>
+<li>Не&nbsp;использовать Сайт с&nbsp;целью:
+<ol>
+<li>Загрузки контента, который является незаконным, нарушает любые права третьих лиц; пропагандирует насилие, жестокость, ненависть и&nbsp;(или) дискриминацию по&nbsp;расовому, национальному, половому, религиозному, социальному признакам; содержит недостоверные сведения и&nbsp;(или) оскорбления в&nbsp;адрес конкретных лиц, организаций, органов власти.</li>
+<li>Побуждения к&nbsp;совершению противоправных действий, а&nbsp;также содействия лицам, действия которых направлены на&nbsp;нарушение ограничений и&nbsp;запретов, действующих на&nbsp;территории Российской Федерации.</li>
+<li>Нарушения прав несовершеннолетних лиц и&nbsp;(или) причинение им&nbsp;вреда в&nbsp;любой форме.</li>
+<li>Ущемления прав меньшинств.</li>
+<li>Представления себя за&nbsp;другого человека или&nbsp;представителя организации и&nbsp;(или) сообщества без&nbsp;достаточных на&nbsp;то&nbsp;прав, в&nbsp;том&nbsp;числе за&nbsp;сотрудников данного Сайта.</li>
+<li>Введения в&nbsp;заблуждение относительно свойств и&nbsp;характеристик услуг, размещенных на&nbsp;Сайте.</li>
+<li>Некорректного сравнения услуг, а&nbsp;также формирования негативного отношения к&nbsp;лицам, (не)&nbsp;пользующимся определенными услугами, или&nbsp;осуждения таких лиц.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Пользователю запрещается:
+<ol>
+<li>Использовать любые устройства, программы, процедуры, алгоритмы и&nbsp;методы, автоматические устройства или&nbsp;эквивалентные ручные процессы для&nbsp;доступа, приобретения, копирования или&nbsp;отслеживания содержания данного Сайта.</li>
+<li>Нарушать надлежащее функционирование Сайта.</li>
+<li>Любым способом обходить навигационную структуру Сайта для&nbsp;получения или&nbsp;попытки получения любой информации, документов или&nbsp;материалов любыми средствами, которые специально не&nbsp;представлены сервисами данного Сайта.</li>
+<li>Несанкционированный доступ к&nbsp;функциям Сайта, любым другим системам или&nbsp;сетям, относящимся к&nbsp;данному Сайту, а&nbsp;также к&nbsp;любым услугам, предлагаемым на&nbsp;Сайте.</li>
+<li>Нарушать систему безопасности или&nbsp;аутентификации на&nbsp;Сайте или в&nbsp;любой сети, относящейся к&nbsp;Сайту.</li>
+<li>Выполнять обратный поиск, отслеживать или&nbsp;пытаться отслеживать любую информацию о&nbsp;любом другом Пользователе Сайта.</li>
+<li>Использовать Сайт и&nbsp;его Содержание в&nbsp;любых целях, запрещенных законодательством Российской Федерации, а&nbsp;также подстрекать к&nbsp;любой незаконной деятельности или&nbsp;другой деятельности, нарушающей права интернет-ресурса или&nbsp;других лиц.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Использование Сайта
+<ol>
+<li>Сайт и&nbsp;Содержание, входящее в&nbsp;состав Сайта, принадлежит и&nbsp;управляется Администрацией Сайта.</li>
+<li>Содержание Сайта не&nbsp;может быть скопировано, опубликовано, воспроизведено, передано или&nbsp;распространено любым способом, а&nbsp;также размещено в&nbsp;глобальной сети «Интернет» без&nbsp;предварительного письменного согласия Администрации Сайта.</li>
+<li>Содержание Сайта защищено авторским правом, законодательством о&nbsp;товарных знаках, а&nbsp;также другими правами, связанными с&nbsp;интеллектуальной собственностью, и&nbsp;законодательством о&nbsp;недобросовестной конкуренции.</li>
+<li>Настоящее Соглашение распространяет свое действия на&nbsp;все дополнительные положения по&nbsp;оказанию услуг, предоставляемых на&nbsp;Сайте.</li>
+<li>Информация, размещаемая на&nbsp;Сайте не&nbsp;должна истолковываться как&nbsp;изменение настоящего Соглашения.</li>
+<li>Администрация Сайта имеет право в&nbsp;любое время без&nbsp;уведомления Пользователя вносить изменения в&nbsp;перечень услуг, предлагаемых на&nbsp;Сайте.</li>
+</ol>
+</li>
+<li>Ответственность
+<ol>
+<li>Любые убытки, которые Пользователь может понести в&nbsp;случае умышленного или&nbsp;неосторожного нарушения любого положения настоящего Соглашения, а&nbsp;также вследствие несанкционированного доступа к&nbsp;коммуникациям другого Пользователя, Администрацией Сайта не&nbsp;возмещаются.</li>
+<li>Администрация Сайта не&nbsp;несет ответственности&nbsp;за:
+<ol>
+<li>Задержки или&nbsp;сбои в&nbsp;процессе совершения операции, возникшие вследствие непреодолимой силы, а&nbsp;также любого случая неполадок в&nbsp;телекоммуникационных, компьютерных, электрических и&nbsp;иных смежных системах.</li>
+<li>Действия систем переводов, банков, платежных систем и&nbsp;за&nbsp;задержки связанные с&nbsp;их&nbsp;работой.</li>
+<li>Надлежащее функционирование Сайта, в&nbsp;случае, если Пользователь не&nbsp;имеет необходимых технических средств для&nbsp;его использования, а&nbsp;также не&nbsp;несет никаких обязательств по&nbsp;обеспечению пользователей такими средствами.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Нарушение условий Пользовательского соглашения
+<ol>
+<li>Администрация Сайта вправе раскрыть любую собранную о&nbsp;Пользователе данного Сайта информацию, если раскрытие необходимо в&nbsp;связи с&nbsp;расследованием или&nbsp;жалобой в&nbsp;отношении неправомерного использования Сайта либо для&nbsp;установления (идентификации) Пользователя, который может нарушать или&nbsp;вмешиваться в&nbsp;права Администрации Сайта или&nbsp;в&nbsp;права других Пользователей Сайта.</li>
+<li>Администрация Сайта имеет право раскрыть любую информацию о&nbsp;Пользователе, которую посчитает необходимой для&nbsp;выполнения положений действующего законодательства или&nbsp;судебных решений, обеспечения выполнения условий настоящего Соглашения, защиты прав или&nbsp;безопасности.</li>
+<li>Администрация Сайта имеет право раскрыть информацию о&nbsp;Пользователе, если действующее законодательство Российской Федерации требует или&nbsp;разрешает такое раскрытие.</li>
+<li>Администрация Сайта вправе без&nbsp;предварительного уведомления Пользователя прекратить и&nbsp;(или) заблокировать доступ к&nbsp;Сайту, если Пользователь нарушил настоящее Соглашение или&nbsp;содержащиеся в&nbsp;иных документах условия пользования Сайтом, а&nbsp;также в&nbsp;случае прекращения действия Сайта либо по&nbsp;причине технической неполадки или&nbsp;проблемы.</li>
+<li>Администрация Сайта не&nbsp;несет ответственности перед&nbsp;Пользователем или&nbsp;третьими лицами за&nbsp;прекращение доступа к&nbsp;Сайту в&nbsp;случае нарушения Пользователем любого положения настоящего Соглашения или&nbsp;иного документа, содержащего условия пользования Сайтом.</li>
+</ol>
+</li>
+<li>Разрешение споров
+<ol>
+<li>В&nbsp;случае возникновения любых разногласий или&nbsp;споров между&nbsp;Сторонами настоящего Соглашения обязательным условием до&nbsp;обращения в&nbsp;суд является предъявление претензии (письменного предложения о&nbsp;добровольном урегулировании спора).</li>
+<li>Получатель претензии в&nbsp;течение 30&nbsp;календарных дней со&nbsp;дня ее&nbsp;получения, письменно уведомляет заявителя претензии о&nbsp;результатах рассмотрения претензии.</li>
+<li>При&nbsp;невозможности разрешить спор в&nbsp;добровольном порядке любая из&nbsp;Сторон вправе обратиться в&nbsp;суд за&nbsp;защитой своих прав, которые предоставлены им&nbsp;действующим законодательством Российской Федерации.</li>
+<li>Любой иск в&nbsp;отношении условий использования Сайта должен быть предъявлен в&nbsp;течение срока после&nbsp;возникновения оснований для&nbsp;иска, за&nbsp;исключением защиты авторских прав на&nbsp;охраняемые в&nbsp;соответствии с&nbsp;законодательством материалы Сайта. При&nbsp;нарушении условий данного пункта любой иск или&nbsp;основания для&nbsp;иска погашаются исковой давностью.</li>
+</ol>
+</li>
+<li>Дополнительные условия
+<ol>
+<li>Администрация Сайта не&nbsp;принимает встречные предложения от&nbsp;Пользователя относительно изменений настоящего Пользовательского соглашения.</li>
+<li>Отзывы Пользователя, размещенные на&nbsp;Сайте, не&nbsp;являются конфиденциальной информацией и&nbsp;могут быть использованы Администрацией Сайта без&nbsp;ограничений.</li>
+</ol>
+</li>
+</ol>
+        </div>
+      </div>
+      <div class="modal modal-callback modal-policies modal-policies--privacy-policy">
+        <div class="modal__bg"></div>
+        <div class="modal__inner">
+          <div class="modal-callback__close-cross js-close-modal">
+            <svg class="icon icon-close">
+              <use xlink:href="sprite.svg#close"></use>
+            </svg>
+          </div>
+          <div class="title">Политика конфиденциальности</div><div class="politics privacy_policy">
+<div class="typography">
+<p>Политика конфиденциальности персональных данных (далее&nbsp;— Политика) разработана в&nbsp;соответствии с&nbsp;Федеральным законом от&nbsp;27.07.2006. №&nbsp;152-ФЗ «О&nbsp;персональных данных» (далее&nbsp;— ФЗ-152)</p>
+<p>Настоящая Политика конфиденциальности персональных данных (далее&nbsp;— Политика конфиденциальности) действует в&nbsp;отношении всей информации, которую сайт, расположенный на&nbsp;доменном имени argellit.ru, может получить о&nbsp;Пользователе во&nbsp;время использования сайта.</p>
+<ol>
+<li><strong>ОПРЕДЕЛЕНИЕ ТЕРМИНОВ</strong>
+<ol>
+<li>В&nbsp;настоящей Политике конфиденциальности используются следующие термины:
+<ol>
+<li>«Администрация сайта» уполномоченные сотрудники управления сайтом, действующие от&nbsp;имени Общества с ограниченной ответственностью «Аргеллит» (далее&nbsp;— Владелец сайта), которые организуют&nbsp;и (или) осуществляет обработку персональных данных, а&nbsp;также определяет цели обработки персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с&nbsp;персональными данными.</li>
+<li>«Персональные данные»&nbsp;— любая информация, относящаяся к&nbsp;прямо или косвенно определенному или определяемому физическому лицу (субъекту персональных данных).</li>
+<li>«Оператор»&nbsp;— государственный орган, муниципальный орган, юридическое или физическое лицо, самостоятельно или совместно с&nbsp;другими лицами организующие&nbsp;и (или) осуществляющие обработку персональных данных, а&nbsp;также определяющие цели обработки персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с&nbsp;персональными данными.</li>
+<li>«Обработка персональных данных»&nbsp;— любое действие (операция) или совокупность действий (операций), совершаемых с&nbsp;использованием средств автоматизации или без использования таких средств с&nbsp;персональными данными, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных данных.</li>
+<li>«Автоматизированная обработка персональных данных»&nbsp;— обработка персональных данных с&nbsp;помощью средств вычислительной техники.</li>
+<li>«Распространение персональных данных»&nbsp;— действия, направленные на&nbsp;раскрытие персональных данных неопределенному кругу лиц.</li>
+<li>«Предоставление персональных данных»&nbsp;— действия, направленные на&nbsp;раскрытие персональных данных определенному лицу или определенному кругу лиц.</li>
+<li>«Блокирование персональных данных»&nbsp;— временное прекращение обработки персональных данных (за&nbsp;исключением случаев, если обработка необходима для уточнения персональных данных).</li>
+<li>«Уничтожение персональных данных»&nbsp;— действия, в&nbsp;результате которых становится невозможным восстановить содержание персональных данных в&nbsp;информационной системе персональных данных&nbsp;и (или) в&nbsp;результате которых уничтожаются материальные носители персональных данных.</li>
+<li>«Обезличивание персональных данных»&nbsp;— действия, в&nbsp;результате которых становится невозможным без использования дополнительной информации определить принадлежность персональных данных конкретному субъекту персональных данных.</li>
+<li>«Конфиденциальность персональных данных»&nbsp;— обязательное для соблюдения Оператором или иным получившим доступ к&nbsp;персональным данным лицом требование не&nbsp;допускать их&nbsp;распространения без согласия субъекта персональных данных или наличия иного законного основания.</li>
+<li>«Пользователь сайта (далее&nbsp;— Пользователь)»&nbsp;— лицо, имеющее доступ к&nbsp;Сайту, посредством сети Интернет и&nbsp;использующее Сайт.</li>
+<li>«Cookies»&nbsp;— небольшой фрагмент данных, отправленный веб-сервером и&nbsp;хранимый на&nbsp;компьютере пользователя, который веб-клиент или веб-браузер каждый раз пересылает веб-серверу в&nbsp;HTTP-запросе при попытке открыть страницу соответствующего сайта.</li>
+<li>«IP-адрес»&nbsp;— уникальный сетевой адрес узла в&nbsp;компьютерной сети, построенной по&nbsp;протоколу IP.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><strong>ОБЩИЕ ПОЛОЖЕНИЯ</strong>
+<ol>
+<li>Использование Пользователем сайта означает согласие с&nbsp;настоящей Политикой конфиденциальности и&nbsp;условиями обработки персональных данных Пользователя.</li>
+<li>В&nbsp;случае несогласия с&nbsp;условиями Политики конфиденциальности Пользователь должен прекратить использование сайта.</li>
+<li>Настоящая Политика конфиденциальности применяется только к&nbsp;сайту, расположенному на&nbsp;доменном имени argellit.ru. Владелец сайта не&nbsp;контролирует и&nbsp;не&nbsp;несет ответственность за&nbsp;сайты третьих лиц, на&nbsp;которые Пользователь может перейти по&nbsp;ссылкам, доступным на&nbsp;сайте.</li>
+<li>Администрация сайта не&nbsp;проверяет достоверность персональных данных, предоставляемых Пользователям сайта.</li>
+</ol>
+</li>
+<li><strong>ПРЕДМЕТ ПОЛИТИКИ КОНФИДЕНЦИАЛЬНОСТИ</strong>
+<ol>
+<li>Настоящая Политика конфиденциальности устанавливает обязательства Администрации сайта по&nbsp;неразглашению и&nbsp;обеспечению режима защиты конфиденциальности персональных данных, которые Пользователь предоставляет по&nbsp;запросу Администрации сайта.</li>
+<li>Персональные данные, разрешённые к&nbsp;обработке в&nbsp;рамках настоящей Политики конфиденциальности, предоставляются Пользователем путём заполнения форм на&nbsp;сайте, включают в&nbsp;себя следующую информацию:
+<ol>
+<li>фамилию, имя, отчество Пользователя;</li>
+<li>контактный телефон Пользователя;</li>
+<li>адрес электронной почты (e-mail).</li>
+</ol>
+</li>
+<li>Владелец сайта надёжно хранит, не&nbsp;распространяет и&nbsp;не&nbsp;разглашает Данные, которые автоматически передаются в&nbsp;процессе просмотра рекламных блоков и&nbsp;при посещении страниц, на&nbsp;которых установлен статистический скрипт системы («пиксель»):
+<ul>
+<li>IP&nbsp;адрес;</li>
+<li>информация из&nbsp;cookies;</li>
+<li>информация о&nbsp;браузере (или иной программе, которая осуществляет доступ к&nbsp;показу рекламы);</li>
+<li>время доступа;</li>
+<li>адрес страницы, на&nbsp;которой расположен рекламный блок;</li>
+<li>реферер (адрес предыдущей страницы).</li>
+</ul>
+<ol>
+<li>Отключение cookies может повлечь невозможность доступа к&nbsp;частям сайта.</li>
+<li>Владелец сайта осуществляет сбор статистики об&nbsp;IP-адресах своих посетителей. Данная информация используется с&nbsp;целью выявления и&nbsp;решения технических проблем.</li>
+</ol>
+</li>
+<li>Любая иная персональная информация, неоговоренная выше, подлежит надежному хранению, нераспространению и&nbsp;неразглашению.</li>
+</ol>
+</li>
+<li><strong>ЦЕЛИ СБОРА ПЕРСОНАЛЬНОЙ ИНФОРМАЦИИ ПОЛЬЗОВАТЕЛЯ</strong>
+<ol>
+<li>Персональные данные Пользователя Администрация сайта может использовать в&nbsp;целях:
+<ol>
+<li>Установления с&nbsp;Пользователем обратной связи, включая направление уведомлений, запросов, касающихся использования сайта, оказания услуг, обработка запросов и&nbsp;заявок от&nbsp;Пользователя.</li>
+<li>Определения места нахождения Пользователя для обеспечения безопасности, предотвращения мошенничества.</li>
+<li>Подтверждения достоверности и&nbsp;полноты персональных данных, предоставленных Пользователем.</li>
+<li>Предоставления Пользователю эффективной клиентской и&nbsp;технической поддержки при возникновении проблем, связанных с&nbsp;использованием сайта.</li>
+<li>Предоставления Пользователю с&nbsp;его согласия, специальных предложений, новостной рассылки и&nbsp;иных сведений от&nbsp;имени Владелеца сайта или от&nbsp;имени партнеров Владелеца сайта.</li>
+<li>Осуществления рекламной деятельности с&nbsp;согласия Пользователя.</li>
+<li>Предоставления доступа Пользователю на&nbsp;сайты или сервисы партнеров сайта с&nbsp;целью получения продуктов, обновлений и&nbsp;услуг.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><strong>СПОСОБЫ И&nbsp;СРОКИ ОБРАБОТКИ ПЕРСОНАЛЬНОЙ ИНФОРМАЦИИ</strong>
+<ol>
+<li>Обработка персональных данных Пользователя осуществляется без ограничения срока, любым законным способом, в&nbsp;том числе в&nbsp;информационных системах персональных данных с&nbsp;использованием средств автоматизации или без использования таких средств.</li>
+<li>Персональные данные Пользователя могут быть переданы уполномоченным органам государственной власти Российской Федерации только по&nbsp;основаниям и&nbsp;в&nbsp;порядке, установленным законодательством Российской Федерации.</li>
+<li>При утрате или разглашении персональных данных Администрация сайта информирует Пользователя об&nbsp;утрате или разглашении персональных данных.</li>
+<li>Администрация сайта принимает необходимые организационные и&nbsp;технические меры для защиты персональной информации Пользователя от&nbsp;неправомерного или случайного доступа, уничтожения, изменения, блокирования, копирования, распространения, а&nbsp;также от&nbsp;иных неправомерных действий третьих лиц.</li>
+<li>Администрация сайта совместно с&nbsp;Пользователем принимает все необходимые меры по&nbsp;предотвращению убытков или иных отрицательных последствий, вызванных утратой или разглашением персональных данных Пользователя.</li>
+</ol>
+</li>
+<li><strong>ОБЯЗАТЕЛЬСТВА СТОРОН</strong>
+<ol>
+<li><strong>Пользователь обязан:</strong>
+<ol>
+<li>Предоставить информацию о&nbsp;персональных данных, необходимую для пользования сайтом.</li>
+<li>Обновить, дополнить предоставленную информацию о&nbsp;персональных данных в&nbsp;случае изменения данной информации.</li>
+</ol>
+</li>
+<li><strong>Администрация сайта обязана:</strong>
+<ol>
+<li>Использовать полученную информацию исключительно для целей, указанных в&nbsp;п.&nbsp;4&nbsp;настоящей Политики конфиденциальности.</li>
+<li>Обеспечить хранение конфиденциальной информации в&nbsp;тайне, не&nbsp;разглашать без предварительного письменного разрешения Пользователя, а&nbsp;также не&nbsp;осуществлять продажу, обмен, опубликование, либо разглашение иными возможными способами переданных персональных данных Пользователя.</li>
+<li>Принимать меры предосторожности для защиты конфиденциальности персональных данных Пользователя согласно порядку, обычно используемого для защиты такого рода информации в&nbsp;существующем деловом обороте.</li>
+<li>Осуществить блокирование персональных данных, относящихся к&nbsp;соответствующему Пользователю, с&nbsp;момента обращения или запроса Пользователя, или его законного представителя, либо уполномоченного органа по&nbsp;защите прав субъектов персональных данных на&nbsp;период проверки, в&nbsp;случае выявления недостоверных персональных данных или неправомерных действий.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><strong>ОТВЕТСТВЕННОСТЬ СТОРОН</strong>
+<ol>
+<li>Администрация сайта, не&nbsp;исполнившая свои обязательства, несёт ответственность за&nbsp;убытки, понесённые Пользователем в&nbsp;связи с&nbsp;неправомерным использованием персональных данных, в&nbsp;соответствии с&nbsp;законодательством Российской Федерации.</li>
+<li>В&nbsp;случае утраты или разглашения Конфиденциальной информации Администрация сайта не&nbsp;несёт ответственность, если данная конфиденциальная информация:
+<ol>
+<li>стала публичным достоянием до&nbsp;её&nbsp;утраты или разглашения;</li>
+<li>была получена от&nbsp;третьей стороны до&nbsp;момента её&nbsp;получения Администрацией сайта;</li>
+<li>была разглашена с&nbsp;согласия Пользователя.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><strong>РАЗРЕШЕНИЕ СПОРОВ</strong>
+<ol>
+<li>До&nbsp;обращения в&nbsp;суд с&nbsp;иском по&nbsp;спорам, возникающим из&nbsp;отношений между Пользователем сайта и&nbsp;Администрацией сайта, обязательным является предъявление претензии (письменного предложения о&nbsp;добровольном урегулировании спора).</li>
+<li>Получатель претензии в&nbsp;течение 30&nbsp;календарных дней со&nbsp;дня получения претензии, письменно уведомляет заявителя претензии о&nbsp;результатах рассмотрения претензии.</li>
+<li>При не&nbsp;достижении соглашения спор будет передан на&nbsp;рассмотрение в&nbsp;судебный орган в&nbsp;соответствии с&nbsp;действующим законодательством Российской Федерации.</li>
+<li>К&nbsp;настоящей Политике конфиденциальности и&nbsp;отношениям между Пользователем и&nbsp;Администрацией сайта применяется действующее законодательство Российской Федерации.</li>
+</ol>
+</li>
+<li><strong>ДОПОЛНИТЕЛЬНЫЕ УСЛОВИЯ</strong>
+<ol>
+<li>Администрация сайта вправе вносить изменения в&nbsp;настоящую Политику конфиденциальности без согласия Пользователя.</li>
+<li>Новая Политика конфиденциальности вступает в&nbsp;силу с&nbsp;момента ее&nbsp;размещения на&nbsp;сайте, если иное не&nbsp;предусмотрено новой редакцией Политики конфиденциальности.</li>
+<li>Все предложения или вопросы по&nbsp;настоящей Политике конфиденциальности следует сообщать:
+<p style="margin-left: 15px;">Общество с ограниченной ответственностью «Аргеллит», <br>ИНН 4211011048 <br>
+          ОГРН 1024201255891 <br>
+          Юридический и почтовый адрес: 652723, Кемеровская область, г. Киселевск, ул. Приозерная д. № 26 <br>
+          http://www.argellit.ru/</p>
+        </div></li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+      </div>
+      <div class="modal__bg modal__bg--menu closed"></div>
+    </div>
+  <script src="vendors~main.b3c5e5c41149e6afe115.js"></script><script src="main.fc346b28f17af77d46a4.js"></script></body>
+</html>

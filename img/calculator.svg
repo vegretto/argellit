@@ -1,0 +1,8 @@
+export default {
+      id: "calculator-usage",
+      viewBox: "0 0 370 512",
+      url: __webpack_public_path__ + "D:\\frontend\\Projects\\argelit\\src\\img\\svg\\calculator.svg",
+      toString: function () {
+        return this.url;
+      }
+    }

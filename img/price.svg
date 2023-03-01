@@ -1,0 +1,8 @@
+export default {
+      id: "price-usage",
+      viewBox: "0 0 16.9 16.2",
+      url: __webpack_public_path__ + "D:\\frontend\\Projects\\argelit\\src\\img\\svg\\price.svg",
+      toString: function () {
+        return this.url;
+      }
+    }

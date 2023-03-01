@@ -1,0 +1,8 @@
+export default {
+      id: "menu-usage",
+      viewBox: "0 0 24.75 24.75",
+      url: __webpack_public_path__ + "D:\\frontend\\Projects\\argelit\\src\\img\\svg\\menu.svg",
+      toString: function () {
+        return this.url;
+      }
+    }

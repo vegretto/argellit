@@ -1,0 +1,8 @@
+export default {
+      id: "marketing-usage",
+      viewBox: "0 0 512.001 512.001",
+      url: __webpack_public_path__ + "D:\\frontend\\Projects\\argelit\\src\\img\\svg\\marketing.svg",
+      toString: function () {
+        return this.url;
+      }
+    }

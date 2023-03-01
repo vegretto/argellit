@@ -1,0 +1,8 @@
+export default {
+      id: "truck-usage",
+      viewBox: "0 0 511.81 511.81",
+      url: __webpack_public_path__ + "D:\\frontend\\Projects\\argelit\\src\\img\\svg\\truck.svg",
+      toString: function () {
+        return this.url;
+      }
+    }

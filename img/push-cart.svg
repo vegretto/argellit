@@ -1,0 +1,8 @@
+export default {
+      id: "push-cart-usage",
+      viewBox: "0 0 24 24",
+      url: __webpack_public_path__ + "D:\\frontend\\Projects\\argelit\\src\\img\\svg\\push-cart.svg",
+      toString: function () {
+        return this.url;
+      }
+    }

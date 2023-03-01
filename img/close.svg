@@ -1,0 +1,8 @@
+export default {
+      id: "close-usage",
+      viewBox: "0 0 492 492",
+      url: __webpack_public_path__ + "D:\\frontend\\Projects\\argelit\\src\\img\\svg\\close.svg",
+      toString: function () {
+        return this.url;
+      }
+    }
